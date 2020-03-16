@@ -6,45 +6,119 @@
 			top: 155px;
 			right: 490px;
 		}
+		
 		.buttonG {
 			position: absolute;
 			top: 350px;
-			right: 620px;
+			right: 650px;
 			background: #f0f0f0;
-			border: none;
 			cursor: pointer;
 			color: gray;
 			font-size: 15px;
 			padding: 7px 15px;
 			border: 1px solid transparent;
 		}		
+		
 		.buttonL {
 			position: absolute;
 			top: 350px;
-			right: 460px;
+			right: 480px;
 			background: #f0f0f0;
-			border: none;
 			cursor: pointer;
 			color: gray;
 			font-size: 15px;
 			padding: 7px 15px;
 			border: 1px solid transparent;
 		}		
+		
 		.buttonG:hover {
 			border: 1px solid #c7c7c7;
 		}
+		
 		.buttonL:hover {
 			border: 1px solid #c7c7c7;
 		}
+		
+		.searchbar {
+			position: absolute;
+			top: 270px;
+			left: 390px;
+			border-radius: 25px;
+			border-color: gray;
+			cursor: text;
+			width: 420px;
+			height: 45px;
+			padding: 0px 30px;
+			font: 15px;
+			}
+		.about {
+			font-family: Arial;
+			position: absolute;
+			left: 25px;
+			font-size: 14px;
+			}
+			
+		.store {
+			font-family: Arial;
+			position: absolute;
+			left: 80px;
+			font-size: 14px;
+			}
+			
+		.french {
+			font-family: Arial;
+			position: absolute;
+			bottom: 280px;
+			right: 545px;
+		}
+		.gmail {
+			font-family: Arial;
+			position: absolute;
+			right: 190px;
+			font-size: 14px;
+		}
+		.images {
+			font-family: Arial;
+			position: absolute;
+			right: 130px;
+			font-size: 14px;
+		}
+		.dp {
+			font-family: Arial;
+			position: absolute;
+			right: 30px;
+			top: 17px;
+			font-size: 14px;
+			border-radius: 100%;
+			width: 70px;
+		
+		}
+		
+		#rectangle {
+			width: 100%;
+			height: 75px;
+			position: absolute;
+			bottom: 0px;
+			background: #f0f0f0;
+			}
+		p {
+		font-family: Arial;
+		}
 	</style>
 	<body>
-
+		<p class="about">About</p> 
+		<p class="store">Store</p>
+		<p class="gmail">Gmail</p>
+		<p class="images">Images</p>
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="dp"</img>
 
 		<img src="https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo" alt="Google logo">
 		<form>
-			<input type="text" placeholder="" name="search">
+			<input type="text" placeholder="" class="searchbar" name="search">
 			<button class="buttonG" type="submit">Google Search</button>
 			<button class="buttonL" type="submit">I'm Feeling Lucky</button>
 		</form>
+				<p class="french">Google offered in: <a href="www.google.ca"> Francais</a></p>
+		<div id="rectangle"></div>
 	</body>
 </html>
